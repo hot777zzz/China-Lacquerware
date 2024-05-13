@@ -6,5 +6,5 @@ body {
 .head {
   height: 100px;
   width: 100%;
-  background: url(/images/首页/bannner背景.png);
+  background: url(../images/首页/bannner背景.png);
 }
