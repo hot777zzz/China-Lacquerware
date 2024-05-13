@@ -1,17 +1,236 @@
 body {
   margin: 0;
   color: black;
-  height: 5847px;
+  height: 365.4375rem;
 }
 
 .head {
-  height: 700px;
+  height: 43.75rem;
   width: 100%;
   background: url(../images/首页/bannner背景.png);
 }
 
 .main{
-  margin: 0 361px 0 361px;
-  height: 5147px;
-  background-color: gray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 321.6875rem;
+
 }
+.main-page{
+  width: 75.5rem;
+  display: flex;
+  justify-content: center;
+}
+/* 工艺步骤 */
+.mainer-page-steps{
+  height: 45rem;
+}
+
+.steps-header{
+  height: 3.875rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+.left-bar{
+  width: 0rem;
+  height: 1.6875rem;
+  border: .3125rem solid #7F634E;
+}
+.steps-header-left-up{
+  display: flex;
+  
+}
+.steps-header-left-up-title{
+  margin-left: .8125rem;
+  width: 9.0625rem;
+  font-weight: 300;
+  font-size: 1.875rem;
+  color: #2A2920;
+  line-height: 2.5rem;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: .3125rem;
+}
+.steps-header-left-down{
+  margin-left: 1rem;
+  margin-top: .1875rem;
+  width: 14.75rem;
+  height: 1.0625rem;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: .75rem;
+  color: rgba(42,41,32,0.7);
+  line-height: 0rem;
+  letter-spacing: .125rem;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+}
+.steps-header-right{
+  width: 10.625rem;
+  height: 3.875rem;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgba(42,41,32,0.7);
+  line-height: 3.875rem;
+  letter-spacing: .125rem;
+  text-align: right;
+  font-style: normal;
+  text-transform: none;
+}
+.steps-content{
+  width: 100%;
+  margin-top: 6.125rem;
+  height: 33.4375rem;
+
+}
+.steps-content-middle{
+  height: 22.3125rem;
+  margin-top: 6.125rem;
+  width: 100%;
+
+  display: flex;
+  gap: 20px;
+}
+.steps-content-middle-left{
+  width: 21.0625rem;
+  height: 16.6875rem;
+  position: relative;
+  top: 5.625rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-content-middle-main{
+  width: 29.8125rem;
+  height: 22.3125rem;
+  position: relative;
+  top: 0rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-content-middle-right{
+  width: 21.0625rem;
+  height: 16.6875rem;
+  position: relative;
+  top: 5.625rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-content-middle-left-top{
+  width: 21.0625rem;
+  height: 12.9375rem;
+  background-image: url(../images/首页/蒙版组\ 髹漆.png);
+}
+.steps-content-middle-left-bottom{
+  margin-top: 1.875rem;
+  height: 2.0625rem;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #000000;
+  letter-spacing: .625rem;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+}
+.steps-content-middle-main-top{
+  width: 29.8125rem;
+  height: 18.5625rem;
+  background-image: url(../images/首页/采漆.png);
+}
+.steps-content-middle-main-bottom{
+  margin-top: 1.875rem;
+  height: 2.0625rem;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #000000;
+  letter-spacing: .625rem;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+}
+.steps-content-middle-right-top{
+  width: 21.0625rem;
+  height: 12.9375rem;
+  background-image: url(../images/首页/蒙版组\ 髹漆.png);
+
+}
+.steps-content-middle-right-bottom{
+  margin-top: 1.875rem;
+  height: 2.0625rem;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #000000;
+  letter-spacing: .625rem;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+}
+.steps-content-middle-bottom{
+  display: flex;
+  justify-content: center;
+  height: 6.25rem;
+  align-items: center;
+  width: 100%;
+}
+.steps-content-middle-bottom-content{
+  width: 645px;
+  height: 107px;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  line-height: 36px;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 2px;
+}
+.steps-content-bottom{
+  margin-top: 2.0625rem;
+  height: 2.9375rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.steps-content-bottom-left{
+  width: 6.25rem;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.steps-content-bottom-left-left{
+  width: 2.875rem;
+  height: 2.875rem;
+  background-image: url(../images/首页/组\ 23.png);
+}
+.steps-content-bottom-left-right{
+  width: 2.875rem;
+  height: 2.875rem;
+  background-image: url(../images/首页//路径\ 1.png);
+}
+.steps-content-bottom-right{
+  display: flex;
+  align-items: center;
+}
+.steps-content-bottom-right-main{
+  margin-left: 2.1875rem;
+  width: 31.5rem;
+  height: 0px;
+  border: 3px solid #7F634E;
+}
+.steps-content-bottom-right-main2{
+  width: 31.5rem;
+  height: 0px;
+  border: 1px solid #7F634E;
+  opacity: 0.7;
+}
+/* 工艺步骤结束 */
