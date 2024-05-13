@@ -1,10 +1,17 @@
 body {
   margin: 0;
   color: black;
+  height: 5847px;
 }
 
 .head {
-  height: 100px;
+  height: 700px;
   width: 100%;
   background: url(../images/首页/bannner背景.png);
+}
+
+.main{
+  margin: 0 361px 0 361px;
+  height: 5147px;
+  background-color: gray;
 }
