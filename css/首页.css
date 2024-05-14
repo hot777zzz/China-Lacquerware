@@ -20,10 +20,11 @@ body {
 .main-page{
   width: 75.5rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 /* 工艺步骤 */
 .mainer-page-steps{
+  margin-top: 7.5rem;
   height: 45rem;
 }
 
@@ -234,3 +235,111 @@ body {
   opacity: 0.7;
 }
 /* 工艺步骤结束 */
+/* 文化传承开始 */
+.mainer-page-culture{
+  height: 45rem;
+  margin-top: 7.5rem;
+}
+.culture-content{
+  height: 45rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.culture-content-left{
+  width: 8.75rem;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.culture-content-name{
+  width: 70%;
+  height: 2.5rem;
+  font-weight: 450;
+  font-size: 18px;
+  text-align: center;
+  line-height: 2.5rem;
+  position: relative;
+}
+
+.culture-content-name::before,
+.culture-content-name::after {
+  position: absolute;
+  content: '';
+  height: 30px;
+  width: 20px;
+}
+
+.culture-content-name::before {
+  left: -5px;
+  top: -5px;
+  border-left: 2px solid #2A2920;
+  border-top: 2px solid #2A2920;
+}
+
+.culture-content-name::after {
+  right: -5px;
+  bottom: -5px;
+  border-right: 2px solid #2A2920;
+  border-bottom: 2px solid #2A2920;
+}
+.culture-content-englishname{
+  margin-top: 1.6rem;
+  text-align: center;
+  line-height: .625rem;
+  font-weight: 250;
+}
+.culture-content-namepic{
+  margin-top: 2.1875rem;
+  width: 2.1875rem;
+  height: 5rem;
+  background-image: url(../images/首页/印章.png);
+}
+
+
+
+
+
+.culture-content-mid{
+  width: 24.375rem;
+  
+}
+.culture-content-mid-pic1{
+  position: relative;
+  top: 300px;
+  left: 15px;
+}
+.culture-content-mid-pic2{
+  position: relative;
+  top: -220px;
+  left: 80px;
+  z-index: -1;
+}
+
+
+
+.culture-content-right{
+  height: 100%;
+  width: 41.125rem;
+  text-align: right;
+}
+.culture-content-right-word{
+  position: relative;
+  top: -450px;
+  padding-left: 5rem;
+  height: 329px;
+  color: #000000;
+  font-weight: 250;
+  line-height: 36px;
+  text-align: left;
+}
+.culture-content-right-pic1{
+  position: relative;
+  left: 10.5rem;
+  top: -600px;
+}
+.culture-content-right-pic2{
+  position: relative;
+  top: -250px;
+}
